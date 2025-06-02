@@ -1,24 +1,32 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generated with JReleaser 1.18.0 at 2025-06-02T19:14:01.5480517Z -->
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
+    <!-- required -->
     <id>spotless-cli</id>
-    <version>0.1.0</version>
-    <title>Spotless CLI</title>
+    <version>0.1.1</version>
     <authors>Ned Twigg,Simon Gamma</authors>
-    <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <licenseUrl>https://github.com/diffplug/spotless-cli/blob/main/LICENSE</licenseUrl>
-    <projectUrl>https://github.com/diffplug/spotless-cli</projectUrl>
-    <iconUrl>https://cdn.statically.io/gh/diffplug/spotless-cli/v0.1.0/docs/logo/spotless-brush-256.png</iconUrl>
     <description>Spotless CLI is a command line tool that helps you keep your code Spotless.
 It is a standalone tool that can be used in any project, regardless of the build system.
-Or even without any build system at all, just once, or when you are working on a single file.</description>
-    <summary>Keep your code Spotless from the command line</summary>
-    <releaseNotes>https://github.com/diffplug/spotless-cli/releases/tag/v0.1.0</releaseNotes>
+Or even without any build system at all, just once, or when you are working on a single file.
+</description>
+    <!-- optional -->
+    <title>Spotless CLI</title>
+    <projectUrl>https://github.com/diffplug/spotless-cli</projectUrl>
     <copyright>DiffPlug</copyright>
+    <licenseUrl>https://github.com/diffplug/spotless-cli/blob/main/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <tags>spotless formatter code-style</tags>
+    <summary>Keep your code Spotless from the command line</summary>
     <projectSourceUrl>https://github.com/diffplug/spotless-cli</projectSourceUrl>
     <packageSourceUrl>https://github.com/diffplug/chocolatey-bucket</packageSourceUrl>
     <docsUrl>https://github.com/diffplug/spotless-cli</docsUrl>
     <bugTrackerUrl>https://github.com/diffplug/spotless-cli/issues</bugTrackerUrl>
+    <releaseNotes>https://github.com/diffplug/spotless-cli/releases/tag/v0.1.1</releaseNotes>
+    <iconUrl>https://cdn.statically.io/gh/diffplug/spotless-cli/v0.1.1/docs/logo/spotless-brush-256.png</iconUrl>
   </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
 </package>
